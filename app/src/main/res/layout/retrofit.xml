@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#002222">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_click_me"
+        android:text="点我"
+        android:padding="5dp"
+        android:layout_alignParentBottom="true"
+        android:textSize="16sp"/>
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btn_click_me"
+        android:text="Hello World!"
+        android:textSize="16sp"/>
+
+    <ImageView
+        android:id="@+id/myImageView" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/avd_vector_anim"/>
+
+</RelativeLayout>

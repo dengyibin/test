@@ -1,0 +1,25 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/vector">
+
+    <target android:name="pin"
+        android:animation="@anim/pins">
+    </target>
+    <target android:name="dots"
+        android:animation="@anim/dots">
+    </target>
+    <target android:name="dot_1"
+        android:animation="@anim/dot_1">
+    </target>
+    <target android:name="dot_2"
+        android:animation="@anim/dot_2">
+    </target>
+    <target android:name="dot_3"
+        android:animation="@anim/dot_3">
+    </target>
+    <target android:name="dot_4"
+        android:animation="@anim/dot_4">
+    </target>
+    <target android:name="dot_5"
+        android:animation="@anim/dot_5">
+    </target>
+</animated-vector>
