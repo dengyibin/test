@@ -21,7 +21,6 @@ import com.example.sy001.myapplication.flowchart.FlowPhaseData;
 import com.example.sy001.myapplication.flowchart.LineData;
 import com.example.sy001.myapplication.flowchart.NodeData;
 import com.example.sy001.myapplication.flowchart.NodeStatus;
-import com.tyky.edu.mylibrary.TestLibActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -195,7 +194,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btn_RxJava2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(mContext, TestLibActivity.class));
+//                startActivity(new Intent(mContext, TestLibActivity.class));
             }
         });
         findViewById(R.id.btn_webView).setOnClickListener(new View.OnClickListener() {
