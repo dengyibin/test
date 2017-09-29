@@ -53,7 +53,7 @@ public class TestLib2Activity extends AppCompatActivity {
 
     @OnClick(R2.id.test_btn)
     void onClickShow(View v) {
-        Toast.makeText(TestLibActivity.this,"测试="+testView.getText(),Toast.LENGTH_SHORT).show();
+        Toast.makeText(TestLib2Activity.this,"测试="+testView.getText(),Toast.LENGTH_SHORT).show();
         test.name = "测试"+System.currentTimeMillis();
                 binding.setTest(test);
     }

@@ -62,7 +62,7 @@ bintray {
     configurations = ['archives']
     pkg {
         repo = "test"               //跟上面创建的Maven仓库名字保持一致
-        name = "testlib"                //发布到JCenter上的项目名字
+        name = "testlib2"                //发布到JCenter上的项目名字
         websiteUrl = siteUrl
         vcsUrl = gitUrl
         licenses = ["Apache-2.0"]
