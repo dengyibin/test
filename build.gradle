@@ -10,6 +10,7 @@ buildscript {
         // in the individual module build.gradle files
         classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
         classpath 'com.jakewharton:butterknife-gradle-plugin:8.8.1'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
     }
 }
 ext {
@@ -22,4 +23,8 @@ allprojects {
         maven { url "https://jitpack.io"  }
         maven { url "https://dl.bintray.com/drummer-aidan/maven" }
     }
+
+}
+subprojects {
+    tasks.withType(Javadoc).all { enabled = false }
 }

@@ -1,3 +1,3 @@
-include ':app', ':annotation', ':compiler', ':app-baoan-debug', ':mylibrary', ':mylibrary-release'
+include ':app', ':annotation', ':compiler', ':app-baoan-debug', ':mylibrary', ':mylibrary-release', ':mylibrary2'
 //include ':volleyplu', ':alertdialog'
 //include ':openCVLibrary310'
